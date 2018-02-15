@@ -1,0 +1,68 @@
+body, html {
+  overflow: hidden;
+  background-image: url('EasterEgg.png');
+  background-position: top left;
+  background-size: cover;
+}
+.shapeframe {
+  transform-style: preserve-3d;
+  height: calc(100vh - 50px);
+  width: calc(100vw - 50px);
+  background-image: url('shape-bg.png');
+  background-position: center center;
+  background-size: cover;
+  border-radius: 10px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  padding: 50px;
+}
+.attribute {
+  color: black;
+  transform: translateZ(0.01px);
+  font-family: 'Montserrat', sans-serif;
+}
+.atr-top-left {
+  position: absolute;
+  top: 55px;
+  left: 55px;
+}
+.atr-top-right {
+  position: absolute;
+  top: 55px;
+  right: 55px;
+}
+.atr-bottom-middle {
+  position: absolute;
+  width: calc(100vw - 50px);
+  bottom: 55px;
+  text-align: center;
+}
+.centerBox{
+  width: 280px;
+  height: 480px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: #00FFFF;
+  position: absolute;
+  left: calc(50vw - 150px);
+  top: calc(50vh - 250px);
+  text-align: left;
+  display: flex;
+  vertical-align: text-bottom;
+  transform: translateZ(100px);
+  padding: 10px;
+  background-color: rgba(0,0,0,0);
+  -webkit-box-shadow: -10px 0px 0px 0px rgba(0,0,0,1);
+-moz-box-shadow: -10px 0px 0px 0px rgba(0,0,0,1);
+box-shadow: -10px 0px 0px 0px rgba(0,0,0,1);
+}
+.centerBox span {
+  align-self: flex-end;
+  font-size: 28px;
+  font-family: 'Times New Roman', serif;
+  color: #00FFFF;
+  font-style: italic;
+  text-shadow: -2px 0px #000000;
+  letter-spacing: 2px;
+}

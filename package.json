@@ -1,0 +1,31 @@
+{
+  "name": "twyrbk-18",
+  "version": "1.0.0",
+  "description": "Promotional Website for TW Olympian 2018 Yearbook",
+  "main": "script.js",
+  "dependencies": {
+    "jquery.js": "0.0.2-security",
+    "tilt.js": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThatEpicChris/twyrbk-18.git"
+  },
+  "keywords": [
+    "olympian",
+    "tosa",
+    "west",
+    "wauwatosa",
+    "yearbook"
+  ],
+  "author": "Christopher Bravata",
+  "license": "SEE LICENSE IN license.md",
+  "bugs": {
+    "url": "https://github.com/ThatEpicChris/twyrbk-18/issues"
+  },
+  "homepage": "https://github.com/ThatEpicChris/twyrbk-18#readme"
+}
