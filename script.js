@@ -1,12 +1,10 @@
 $('.shapeframe').tilt({
-    perspective:  1000,
+    perspective:    1000,
     glare: true,
     scale: 1.05
 });
-var RPVal;
 function randPhrase() {
-  RPVal = Math.floor((Math.random() * 10) + 1);
-  deterRP(RPVal);
+  deterRP(Math.floor((Math.random() * 10) + 1;
 };
 function deterRP(Val) {
   if (Val === 1) {
