@@ -4,7 +4,7 @@ $('.shapeframe').tilt({
     scale: 1.05
 });
 function randPhrase() {
-  deterRP(Math.floor((Math.random() * 10) + 1;
+  deterRP(Math.floor((Math.random() * 10) + 1);
 };
 function deterRP(Val) {
   if (Val === 1) {
