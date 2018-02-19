@@ -54,10 +54,10 @@ body, html {
   padding: 10px;
   background-color: rgba(0,0,0,0);
   -webkit-box-shadow: -10px 0px 0px 0px rgba(0,0,0,1);
--moz-box-shadow: -10px 0px 0px 0px rgba(0,0,0,1);
-box-shadow: -10px 0px 0px 0px rgba(0,0,0,1);
+  -moz-box-shadow: -10px 0px 0px 0px rgba(0,0,0,1);
+  box-shadow: -10px 0px 0px 0px rgba(0,0,0,1);
 }
-.centerBox span {
+.centerBox div {
   align-self: flex-end;
   font-size: 28px;
   font-family: 'Times New Roman', serif;
@@ -65,4 +65,36 @@ box-shadow: -10px 0px 0px 0px rgba(0,0,0,1);
   font-style: italic;
   text-shadow: -2px 0px #000000;
   letter-spacing: 2px;
+}
+.centerBox .button {
+  align-self: flex-end;
+  font-size: 18px;
+  font-family: 'Times New Roman', serif;
+  color: white;
+  font-style: italic;
+  text-shadow: -2px 0px #000000;
+  letter-spacing: 2px;
+  background-color: #00FFFF;
+  -webkit-box-shadow: -5px 0px 0px 0px rgba(0,0,0,1);
+  -moz-box-shadow: -5px 0px 0px 0px rgba(0,0,0,1);
+  box-shadow: -5px 0px 0px 0px rgba(0,0,0,1);
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  text-decoration: none !important;
+  transition: 0.1s;
+}
+a {
+  text-decoration: none !important;
+}
+.centerBox .notice {
+  font-size: 10px;
+  color: black;
+  text-shadow: 0px 0px #000000;
+}
+.centerBox .button:hover {
+  -webkit-box-shadow: -10px 0px 0px 0px rgba(0,0,0,1);
+-moz-box-shadow: -10px 0px 0px 0px rgba(0,0,0,1);
+box-shadow: -10px 0px 0px 0px rgba(0,0,0,1);
 }
